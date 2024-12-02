@@ -4,7 +4,7 @@
 "Curriculum Vitae (CV) project in a single-page format. This project is built using HTML with minimal CSS styling, prioritizing a semantically structured layout. It incorporates essential aspects of CV creation, including semantic HTML, meta tags for SEO, Open Graph (OG) tags for social media sharing, and a favicon in the head section."  
 
 ## Project Display
-![image](/01-Single-Page-CV/assets/CurriculumVitae.png)
+![image](/Frontend/01-Single-Page-CV/assets/CurriculumVitae.png)
 
 ## Submission Checklist
 - [x] Semantically correct HTML structure.
@@ -20,4 +20,4 @@
 4) Linkedin : https://www.linkedin.com/in/ikomangraditasuardhana
 
 ## Roadmap Link Reference Project
-[roadmap.sh](https://roadmap.sh/projects/single-page-cv). 
+[roadmap.sh](https://roadmap.sh/projects/single-page-cv)
