@@ -4,7 +4,7 @@
 This project is a basic HTML website that uses a semantic structure and includes several watermarks in the form of logos and names in the navigation, then there is also some navigation that goes to each page, and SEO meta tags. This also includes a contact page with a form and don't forget to add a little CSS to change the appearance of the website to make it more attractive.
 
 ## Project Display
-![image](Frontend/02-Basic-HTML-Website/assets/BasicHTMLwebsite.png)
+![image](/Frontend/02-Basic-HTML-Website/assets/BasicHTMLwebsite.png)
 
 ## Submission Checklist
 - [x] Semantically correct HTML structure.
