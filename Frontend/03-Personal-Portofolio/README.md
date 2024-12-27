@@ -4,7 +4,7 @@
 This project is a basic HTML website that uses a semantic structure and includes several watermarks in the form of logos and names in the navigation, then there is also some navigation that goes to each page, and SEO meta tags. This also includes a contact page with a form and don't forget to add a little CSS to change the appearance of the website to make it more attractive.
 
 ## Project Display
-![image](/Frontend/03-Personal-Portofolio/assets/Personal-Portfolio.png)
+![image](/Frontend/03-Personal-Portofolio/assets/Personal-Portofolio.png)
 
 ## Submission Checklist
 - [x] A fully styled, responsive website with the same structure as the previous project.
@@ -14,7 +14,7 @@ This project is a basic HTML website that uses a semantic structure and includes
 
 ## Bonus Points
 - [x] Use Google Fonts to enhance the typography of your website.
-- [] Look into GitHub Pages or Cloudflare Pages to host your website for free.
+- [ ] Look into GitHub Pages or Cloudflare Pages to host your website for free.
 - [x] Add support for dark mode using CSS variables.
 
 ## Reference Create Project and I used its resources in this project. 
