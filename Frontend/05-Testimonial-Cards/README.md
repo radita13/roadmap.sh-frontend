@@ -6,7 +6,7 @@ In this project, I created a series of testimonial cards that showcase quotes or
 The purpose of this project was to improve my ability to structure and style content using HTML and CSS. Completing this project allowed me to gain valuable experience in designing visually appealing and well-organized components.
 
 ## Project Display
-![image](/Frontend/05-Testimonial-Cards/assets/Testimonial Cards.png)
+![image](/Frontend/05-Testimonial-Cards/assets/Testimonial-Cards.png)
 
 ## Resources Used
 Below are some of the resources I utilized during this project:
