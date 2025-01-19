@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Form UI</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="form-container">
+      <form class="profile-form">
+        <!-- Full Name -->
+        <label for="full-name">Full Name</label>
+        <input
+          type="text"
+          id="full-name"
+          placeholder="What should we call you?"
+          required
+        />
+
+        <!-- Email -->
+        <label for="email">Email</label>
+        <input
+          type="email"
+          id="email"
+          placeholder="john@doe.com"
+          aria-invalid="true"
+          required
+        />
+        <p class="error-message">Email is already taken</p>
+
+        <!-- Password -->
+        <label for="password">Enter Password</label>
+        <div class="password-container">
+          <input
+            type="password"
+            id="password"
+            placeholder="xxxxxxxx"
+            required
+          />
+          <button
+            type="button"
+            class="toggle-password"
+            aria-label="Show password"
+          >
+            <i class="fa-solid fa-eye"></i>
+          </button>
+        </div>
+
+        <!-- Confirm Password -->
+        <label for="confirm-password">Confirm Password</label>
+        <div class="password-container">
+          <input
+            type="password"
+            id="confirm-password"
+            placeholder="xxxxxxxx"
+            required
+          />
+          <button
+            type="button"
+            class="toggle-password"
+            aria-label="Show password"
+          >
+            <i class="fa-solid fa-eye"></i>
+          </button>
+        </div>
+
+        <!-- Submit Button -->
+        <button type="submit" class="update-button">Update Profile</button>
+      </form>
+
+      <!-- Profile Completeness Section -->
+      <div class="profile-completeness-container">
+        <div class="donut-container">
+          <div class="donut-progress">
+            <span class="progress-value">65%</span>
+          </div>
+        </div>
+        <h4>Profile Completeness</h4>
+        <div class="container-text">
+          <div class="profile-completeness-text">
+            <ul>
+              <li><s>Create Account</s></li>
+              <li><s>Update Roadmap Progress</s></li>
+              <li><s>Setup Public Profile</s></li>
+              <li>Complete your first project</li>
+              <li>Invite your Friends</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
