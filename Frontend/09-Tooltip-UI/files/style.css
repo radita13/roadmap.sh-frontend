@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 100px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  height: 20%;
+  min-width: 400px;
+  border: 2px solid black;
+  padding: 10px 50px;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
+.dot {
+  color: black;
+}
+
+nav ul a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li {
+  position: relative;
+  list-style: none;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.tooltip .tooltip-hover {
+  visibility: hidden;
+  display: inline-flex;
+  align-items: center;
+  width: auto;
+  height: 60px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 15px;
+  padding: 5px 20px;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  white-space: nowrap;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.tooltip .tooltip-hover::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 10px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+}
+
+.tooltip:hover .tooltip-hover {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltip:hover {
+  color: blue;
+}
