@@ -11,4 +11,4 @@ Additionally, this project stores the user's consent using cookies or localStora
 ![image](/Frontend/11-Cookie-Consent/assets/Cookie-Consent.png)
 
 ## References
-- [Roadmap.sh](https://roadmap.sh/projects/simple-tabs)
+- [Roadmap.sh](https://roadmap.sh/projects/cookie-consent)
