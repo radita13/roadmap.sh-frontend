@@ -41,7 +41,8 @@ body {
   margin-bottom: 5px;
   height: 0;
   overflow: hidden;
-  transition: height 0.4s ease-out, padding 0.4s ease-out, border 0.3s, opacity 0.3s;
+  transition: height 0.4s ease-out, padding 0.4s ease-out, border 0.3s,
+    opacity 0.3s;
   opacity: 0;
 }
 
@@ -70,4 +71,47 @@ body {
 
 .minus::before {
   content: "-";
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    margin: 0 180px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .container {
+    margin: 0 80px;
+  }
+
+  .accordion-item {
+    font-size: 18px;
+  }
+
+  .accordion-content {
+    padding: 0 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+.container {
+  display: flex;
+  gap: 10px;
+}
+
+  .container h1 {
+    font-size: 25px;
+  }
+
+  .conatiner p {
+    font-size: 16px;
+  }
+
+  .accordion-item {
+    font-size: 18px;
+  }
+
+  .accordion-content {
+    padding: 0 10px;
+  }
 }
